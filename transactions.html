@@ -1,0 +1,541 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Paylio - Money Transfer and Online Payments Dashboard HTML Template</title>
+
+    <link rel="shortcut icon" href="assets/images/fav.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="assets/css/jquery-ui.css">
+    <link rel="stylesheet" href="assets/css/plugin/apexcharts.css">
+    <link rel="stylesheet" href="assets/css/plugin/nice-select.css">
+    <link rel="stylesheet" href="assets/css/arafat-font.css">
+    <link rel="stylesheet" href="assets/css/plugin/animate.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- start preloader -->
+    <div class="preloader" id="preloader"></div>
+    <!-- end preloader -->
+
+    <!-- Scroll To Top Start-->
+    <a href="javascript:void(0)" class="scrollToTop"><i class="fas fa-angle-double-up"></i></a>
+    <!-- Scroll To Top End -->
+
+    <!-- header-section start -->
+    <header class="header-section body-collapse">
+        <div class="overlay">
+            <div class="container-fruid">
+                <div class="row d-flex header-area">
+                    <div class="navbar-area d-flex align-items-center justify-content-between">
+                        <div class="sidebar-icon">
+                            <img src="assets/images/icon/menu.png" alt="icon">
+                        </div>
+                        <form action="#" class="flex-fill">
+                            <div class="form-group d-flex align-items-center">
+                                <img src="assets/images/icon/search.png" alt="icon">
+                                <input type="text" placeholder="Type to search...">
+                            </div>
+                        </form>
+                        <div class="dashboard-nav">
+                            <div class="single-item language-area">
+                                <div class="language-btn">
+                                    <img src="assets/images/icon/lang.png" alt="icon">
+                                </div>
+                                <ul class="main-area language-content">
+                                    <li>English</li>
+                                    <li>Hindi</li>
+                                    <li class="active">English (US)</li>
+                                    <li>Japanese</li>
+                                    <li>Kannada</li>
+                                    <li>Lithuanian</li>
+                                </ul>
+                            </div>
+                            <div class="single-item notifications-area">
+                                <div class="notifications-btn">
+                                    <img src="assets/images/icon/bell.png" class="bell-icon" alt="icon">
+                                </div>
+                                <div class="main-area notifications-content">
+                                    <div class="head-area d-flex justify-content-between">
+                                        <h5>Notifications</h5>
+                                        <span class="mdr">4</span>
+                                    </div>
+                                    <ul>
+                                        <li>
+                                            <a href="javascript:void(0)" class="d-flex">
+                                                <div class="img-area">
+                                                    <img src="assets/images/user-1.png" class="max-un" alt="image">
+                                                </div>
+                                                <div class="text-area">
+                                                    <p class="mdr">You received a payment of <b>$134.00</b> from <b>Anna
+                                                            Green</b></p>
+                                                    <p class="mdr time-area">09.39AM</p>
+                                                </div>
+                                            </a>
+                                            <i class="fa-solid fa-caret-right"></i>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)" class="d-flex">
+                                                <div class="img-area">
+                                                    <img src="assets/images/user-2.png" class="max-un" alt="image">
+                                                </div>
+                                                <div class="text-area">
+                                                    <p class="mdr"><b>James Deed</b> requested a payment of
+                                                        <b>£890.00</b>
+                                                    </p>
+                                                    <p class="mdr time-area">08.09AM</p>
+                                                </div>
+                                            </a>
+                                            <i class="fa-solid fa-caret-right"></i>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)" class="d-flex">
+                                                <div class="img-area">
+                                                    <img src="assets/images/master-card.png" class="max-un" alt="image">
+                                                </div>
+                                                <div class="text-area">
+                                                    <p class="mdr">Your new payment method has beed added successfully
+                                                    </p>
+                                                    <p class="mdr time-area">09.39AM</p>
+                                                </div>
+                                            </a>
+                                            <i class="fa-solid fa-caret-right"></i>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)" class="d-flex">
+                                                <div class="img-area">
+                                                    <img src="assets/images/user-3.png" class="max-un" alt="image">
+                                                </div>
+                                                <div class="text-area">
+                                                    <p class="mdr">You received a payment of <b>$250.00</b> from Goerge
+                                                        Michael</p>
+                                                    <p class="mdr time-area">Yesterday</p>
+                                                </div>
+                                            </a>
+                                            <i class="fa-solid fa-caret-right"></i>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="single-item user-area">
+                                <div class="profile-area d-flex align-items-center">
+                                    <span class="user-profile">
+                                        <img src="assets/images/avatar.png" alt="User">
+                                    </span>
+                                    <i class="fa-solid fa-sort-down"></i>
+                                </div>
+                                <div class="main-area user-content">
+                                    <div class="head-area d-flex align-items-center">
+                                        <div class="profile-img">
+                                            <img src="assets/images/avatar-2.png" alt="User">
+                                        </div>
+                                        <div class="profile-head">
+                                            <a href="javascript:void(0)">
+                                                <h5>Kevin Martin</h5>
+                                            </a>
+                                            <p class="wallet-id">Wallet ID: 6264849965</p>
+                                        </div>
+                                    </div>
+                                    <ul>
+                                        <li class="border-area">
+                                            <a href="account.html"><i class="fas fa-cog"></i>Settings</a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)"><i class="fas fa-sign-out"></i>Logout</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sidebar-wrapper">
+                        <div class="close-btn d-block d-xl-none">
+                            <i class="fa-solid fa-xmark"></i>
+                        </div>
+                        <div class="sidebar-logo">
+                            <a href="dashboard.html"><img src="assets/images/logo.png" alt="logo"></a>
+                        </div>
+                        <ul>
+                            <li>
+                                <a href="dashboard.html">
+                                    <img src="assets/images/icon/dashboard.png" alt="Dashboard"> <span>Dashboard</span>
+                                </a>
+                            </li>
+                            <li class="active">
+                                <a href="transactions.html">
+                                    <img src="assets/images/icon/transactions.png" alt="Transactions"> <span>Transactions</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="pay.html">
+                                    <img src="assets/images/icon/pay.png" alt="Pay"> <span>Pay</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="receive-step-1.html">
+                                    <img src="assets/images/icon/receive.png" alt="Receive"> <span>Receive</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="money-exchange.html">
+                                    <img src="assets/images/icon/exchange.png" alt="Exchange"> <span>Exchange</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="recipients.html">
+                                    <img src="assets/images/icon/recipients.png" alt="Recipients"> <span>Recipients</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="crypto.html">
+                                    <img src="assets/images/icon/crypto.png" alt="Crypto"> <span>Crypto</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="deposit-money.html">
+                                    <img src="assets/images/icon/deposit.png" alt="Deposit"> <span>Deposit Money</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="withdraw-money-step-1.html">
+                                    <img src="assets/images/icon/withdraw.png" alt="Withdraw"> <span>Withdraw Money</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="bottom-item">
+                            <li>
+                                <a href="account.html">
+                                    <img src="assets/images/icon/account.png" alt="Account"> <span>Account</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="assets/images/icon/support.png" alt="Support"> <span>Support</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="assets/images/icon/quit.png" alt="Quit"> <span>Quit</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="pt-120">
+                            <div class="invite-now">
+                                <div class="img-area">
+                                    <img src="assets/images/invite-now-illus.png" alt="Image">
+                                </div>
+                                <p>Invite your friend and get $25</p>
+                                <a href="javascript:void(0)" class="cmn-btn">Invite Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header-section end -->
+
+    <!-- Dashboard Section start -->
+    <section class="dashboard-section body-collapse transactions">
+        <div class="overlay pt-120">
+            <div class="container-fruid">
+                <div class="head-area">
+                    <div class="row">
+                        <div class="col-lg-5 col-md-4">
+                            <h4>Transactions</h4>
+                        </div>
+                        <div class="col-lg-7 col-md-8">
+                            <div class="transactions-right d-flex align-items-center">
+                                <form action="#" class="flex-fill">
+                                    <div class="form-group d-flex align-items-center">
+                                        <img src="assets/images/icon/search.png" alt="icon">
+                                        <input type="text" placeholder="Type to search...">
+                                    </div>
+                                </form>
+                                <a href="javascript:void(0)">Monthly Statement</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="transactions-main">
+                            <div class="top-items">
+                                <h6>All Transactions</h6>
+                                <div class="export-area">
+                                    <ul class="d-flex align-items-center">
+                                        <li><a href="javascript:void(0)"><img src="assets/images/icon/printer.png" alt="icon">Print</a></li>
+                                        <li><a href="javascript:void(0)"><img src="assets/images/icon/excel.png" alt="icon">Excel</a></li>
+                                        <li><a href="javascript:void(0)"><img src="assets/images/icon/pdf.png" alt="icon">PDF</a></li>
+                                        <li><a href="javascript:void(0)"><img src="assets/images/icon/csv.png" alt="icon">CSV</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="filters-item">
+                                <div class="single-item">
+                                    <select>
+                                        <option value="1">23 Nov 2021- 21 Feb 2022</option>
+                                        <option value="2">23 Feb 2021- 21 Mar 2022</option>
+                                        <option value="3">23 Mar 2021- 21 Apr 2022</option>
+                                    </select>
+                                </div>
+                                <div class="single-item">
+                                    <select>
+                                        <option value="1">Balance</option>
+                                        <option value="2">Balance</option>
+                                        <option value="3">Balance</option>
+                                    </select>
+                                </div>
+                                <div class="single-item">
+                                    <select>
+                                        <option>All Filters</option>
+                                        <option value="1">Filters 1</option>
+                                        <option value="2">Filters 2</option>
+                                        <option value="3">Filters 3</option>
+                                    </select>
+                                </div>
+                                <div class="single-item">
+                                    <button>Clear Filters</button>
+                                </div>
+                            </div>
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Name/ Business</th>
+                                            <th scope="col">Date</th>
+                                            <th scope="col">Status</th>
+                                            <th scope="col">Amount</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr data-bs-toggle="modal" data-bs-target="#transactionsMod">
+                                            <th scope="row">
+                                                <p>Bangkok Bank</p>
+                                                <p class="mdr">Withdraw to bank account</p>
+                                            </th>
+                                            <td>
+                                                <p>03:00 PM</p>
+                                                <p class="mdr">10 Mar 2022</p>
+                                            </td>
+                                            <td>
+                                                <p class="inprogress">In Progress</p>
+                                            </td>
+                                            <td>
+                                                <p>-$520</p>
+                                                <p class="mdr">$3.0</p>
+                                            </td>
+                                        </tr>
+                                        <tr data-bs-toggle="modal" data-bs-target="#transactionsMod">
+                                            <th scope="row">
+                                                <p>Envato Pty Ltd</p>
+                                                <p class="mdr">Marketplace Payment Received</p>
+                                            </th>
+                                            <td>
+                                                <p>04:30 PM</p>
+                                                <p class="mdr">01 Mar 2022</p>
+                                            </td>
+                                            <td>
+                                                <p class="completed">Completed</p>
+                                            </td>
+                                            <td>
+                                                <p>+$450</p>
+                                                <p class="mdr">No Fees</p>
+                                            </td>
+                                        </tr>
+                                        <tr data-bs-toggle="modal" data-bs-target="#transactionsMod">
+                                            <th scope="row">
+                                                <p>Mailchimp</p>
+                                                <p class="mdr">Subscription Service Payment</p>
+                                            </th>
+                                            <td>
+                                                <p>01:15 PM</p>
+                                                <p class="mdr">25 Mar 2022</p>
+                                            </td>
+                                            <td>
+                                                <p class="completed">Completed</p>
+                                            </td>
+                                            <td>
+                                                <p>-$100</p>
+                                                <p class="mdr">No Fees</p>
+                                            </td>
+                                        </tr>
+                                        <tr data-bs-toggle="modal" data-bs-target="#transactionsMod">
+                                            <th scope="row">
+                                                <p>Facebook Ads</p>
+                                                <p class="mdr">Ads Service</p>
+                                            </th>
+                                            <td>
+                                                <p>07:05 PM</p>
+                                                <p class="mdr">15 Mar 2022</p>
+                                            </td>
+                                            <td>
+                                                <p class="pending">Pending</p>
+                                            </td>
+                                            <td>
+                                                <p>$200</p>
+                                                <p class="mdr">No Fees</p>
+                                            </td>
+                                        </tr>
+                                        <tr data-bs-toggle="modal" data-bs-target="#transactionsMod">
+                                            <th scope="row">
+                                                <p>Upwork Escow Inc</p>
+                                                <p class="mdr">Payment payment</p>
+                                            </th>
+                                            <td>
+                                                <p>04:02 PM</p>
+                                                <p class="mdr">10 Mar 2022</p>
+                                            </td>
+                                            <td>
+                                                <p class="completed">Completed</p>
+                                            </td>
+                                            <td>
+                                                <p>$450</p>
+                                                <p class="mdr">$.5</p>
+                                            </td>
+                                        </tr>
+                                        <tr data-bs-toggle="modal" data-bs-target="#transactionsMod">
+                                            <th scope="row">
+                                                <p>Ron Stewart</p>
+                                                <p class="mdr">Payment Refund</p>
+                                            </th>
+                                            <td>
+                                                <p>11:00 PM</p>
+                                                <p class="mdr">21 Mar 2022</p>
+                                            </td>
+                                            <td>
+                                                <p class="cancelled">Cancelled</p>
+                                            </td>
+                                            <td>
+                                                <p>+$450</p>
+                                                <p class="mdr">No Fees</p>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <nav aria-label="Page navigation" class="d-flex justify-content-center mt-40">
+                                <ul class="pagination justify-content-center align-items-center mb-40">
+                                    <li class="page-item">
+                                        <a class="page-link previous" href="javascript:void(0)" aria-label="Previous">
+                                            <i class="fa-solid fa-angles-left"></i>
+                                        </a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a class="page-link previous" href="javascript:void(0)" aria-label="Previous">
+                                            <i class="fa-solid fa-angle-left"></i>
+                                        </a>
+                                    </li>
+                                    <li class="page-item"><a class="page-link" href="javascript:void(0)">1</a></li>
+                                    <li class="page-item"><a class="page-link active" href="javascript:void(0)">2</a></li>
+                                    <li class="page-item"><a class="page-link" href="javascript:void(0)">3</a></li>
+                                    <li class="page-item"><a class="page-link" href="javascript:void(0)">...</a></li>
+                                    <li class="page-item">
+                                        <a class="page-link next" href="javascript:void(0)" aria-label="Next">
+                                            <i class="fa-solid fa-angle-right"></i>
+                                        </a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a class="page-link next" href="javascript:void(0)" aria-label="Next">
+                                            <i class="fa-solid fa-angles-right"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Dashboard Section end -->
+
+    <!-- Transactions Popup start -->
+    <div class="transactions-popup">
+        <div class="container-fruid">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="modal fade" id="transactionsMod" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header justify-content-between">
+                                    <h5>Transaction Details</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+                                </div>
+                                <div class="main-content">
+                                    <div class="row">
+                                        <div class="col-sm-5 text-center">
+                                            <div class="icon-area">
+                                                <img src="assets/images/icon/transaction-details-icon.png" alt="icon">
+                                            </div>
+                                            <div class="text-area">
+                                                <h6>Envato Pty Ltd</h6>
+                                                <p>16 Jan 2022</p>
+                                                <h3>717.14 USD</h3>
+                                                <p class="com">Completed</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-7">
+                                            <div class="right-area">
+                                                <h6>Transaction Details</h6>
+                                                <ul class="payment-details">
+                                                    <li>
+                                                        <span>Payment Amount</span>
+                                                        <span>718.64 USD</span>
+                                                    </li>
+                                                    <li>
+                                                        <span>Fee</span>
+                                                        <span>1.50 USD</span>
+                                                    </li>
+                                                    <li>
+                                                        <span>Total Amount</span>
+                                                        <span>717.14 USD</span>
+                                                    </li>
+                                                </ul>
+                                                <ul class="payment-info">
+                                                    <li>
+                                                        <p>Payment From</p>
+                                                        <span class="mdr">Envato Pty Ltd</span>
+                                                    </li>
+                                                    <li>
+                                                        <p>Payment Description</p>
+                                                        <span class="mdr">Envato Feb 2022 Member Payment</span>
+                                                    </li>
+                                                    <li>
+                                                        <p>Transaction  ID:</p>
+                                                        <span class="mdr">6559595979565959895559595</span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Transactions Popup start -->
+
+    <!--==================================================================-->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery-ui.js"></script>
+    <script src="assets/js/plugin/apexcharts.js"></script>
+    <script src="assets/js/plugin/jquery.nice-select.min.js"></script>
+    <script src="assets/js/plugin/waypoint.min.js"></script>
+    <script src="assets/js/plugin/wow.min.js"></script>
+    <script src="assets/js/plugin/plugin.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
